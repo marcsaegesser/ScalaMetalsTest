@@ -1,0 +1,43 @@
+INFO  time: initialize in 0.33s
+WARN  no build target: /home/marc/work/test/hello-world-template/src/main/scala/Main.scala
+INFO  running '/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals5738062757508540113/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt,plugins.sbt ...
+INFO  [info] Loading global plugins from /home/marc/.sbt/1.0/plugins
+INFO  [info] Loading project definition from /home/marc/work/test/hello-world-template/project
+INFO  [success] Generated .bloop/hello-world-template-build.json
+INFO  [success] Total time: 1 s, completed Oct 28, 2019 6:27:29 PM
+INFO  [info] Loading settings for project hello-world-template from build.sbt ...
+INFO  [info] Set current project to hello-world (in build file:/home/marc/work/test/hello-world-template/)
+INFO  [info] Set current project to hello-world (in build file:/home/marc/work/test/hello-world-template/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [success] Generated .bloop/hello-world-template.json
+INFO  [success] Generated .bloop/hello-world-template-test.json
+INFO  [success] Total time: 0 s, completed Oct 28, 2019 6:27:30 PM
+INFO  time: ran 'sbt bloopInstall' in 8.33s
+INFO  build tool exit: 0
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp4261445974245876226/-wortvf96b7ev.socket'
+The server is listening for incoming connections at local:///tmp/bsp4261445974245876226/-wortvf96b7ev.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp4261445974245876226/-wortvf96b7ev.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marc/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 3.19s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.13s
+WARN  Could not find java sources in None. Java symbols will not be available.
+INFO  time: indexed workspace in 0.96s
+INFO  compiling hello-world-template (1 scala source)
+INFO  time: compiled hello-world-template in 3.12s
+INFO  compiling hello-world-template (1 scala source)
+INFO  time: compiled hello-world-template in 0.35s
+ERROR Failed to compile 'hello-world-template'
+INFO  compiling hello-world-template (1 scala source)
+INFO  time: compiled hello-world-template in 0.18s
+ERROR Failed to compile 'hello-world-template'
+INFO  compiling hello-world-template (1 scala source)
+INFO  time: compiled hello-world-template in 1.25s
+ERROR Failed to compile 'hello-world-template'
+INFO  shutting down Metals
+shutdown request received: build/shutdown
+Client in /home/marc/work/test/hello-world-template/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  bloop exit: 0
